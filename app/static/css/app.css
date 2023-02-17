@@ -1,3 +1,62 @@
 body {
     padding-top: 5rem;
 }
+
+form {
+    padding-top: 20px;
+}
+
+#item {
+    padding-bottom: 40px;
+}
+
+label {
+    font-weight: bold;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+#instructions {
+    padding-top: 15px;
+}
+
+input {
+    box-sizing: border-box;
+    border: 2px solid rgb(204, 201, 203);
+    border-radius: 5px;
+    width: 30%;
+    height: 45px;
+    padding-left: 10px;
+}
+
+textarea {
+    box-sizing: border-box;
+    border: 2px solid rgb(204, 201, 203);
+    border-radius: 5px;
+    resize: none;
+    width: 40%;
+    height: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button {
+    background-color: #2987cd;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.flashes {
+    background-color: rgb(212, 241, 212);
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+    text-transform: uppercase;
+}
